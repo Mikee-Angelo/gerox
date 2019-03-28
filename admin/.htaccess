@@ -1,0 +1,7 @@
+<IfModule authz_core_module>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+Header set Cache-Control "max-age=0, private, no-cache, no-store, must-revalidate"
+</IfModule>

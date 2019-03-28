@@ -1,0 +1,118 @@
+/*
+Theme Name: Amazica
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.site-description, 
+.site-title {
+    text-align: right;
+}
+
+#scroll-top {
+    right: auto;
+    left: 50px;
+}
+
+/* .section-about .section-title, 
+.section-about .section-description,
+.section-callout .section-title {
+    text-align: right !important;
+} */
+
+#TF-Navbar > ul {
+    text-align: left;
+}
+.menu-item.menu-search {
+    float: left !important;
+}
+
+.subscribe-details-inner .ultimate-subscribe-submit {
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+.contact-info-block {
+    text-align: right;
+    padding-right: 80px;
+}
+.owl-carousel{
+	direction: rtl !important;
+}
+
+/* .sidebar-widget ul li a {
+    margin-left: 10px;
+    text-align: right;
+    float: right;
+}
+
+.widget li:before {
+    float: right;
+    margin-left: 10px;
+}
+
+.widget ul {
+    float: right;
+} */
+.widget ul {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.widget li:before {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.widget li {
+    display: inline-block;
+    width: 100%;
+    /* float: left; */
+}
+
+.widget ul li a {
+    display: inline;
+    float: right;
+}
+
+.widget:not(.woocommerce-widget) ul li:hover {
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+    transform: translateX(-10px);
+}
+
+
+header.page-header {
+    text-align: right;
+}
+
+div#blog-content {
+    text-align: right;
+}
+
+@media (min-width: 768px){
+	#TF-Navbar > ul .mobile-eve {
+	    margin-left: 0px;
+	    margin-right: 5px;
+	    float: left;
+	}
+
+	.cart-item-container {
+	    left: 0;
+	    right: auto;
+	}
+}

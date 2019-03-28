@@ -1,0 +1,310 @@
+/*
+Theme Name: Amazica Business
+Author: ThemeFarmer
+Author URI: https://www.themefarmer.com
+Description: Amazica Business is child theme of Amazica. Amazica Business is a lightweight, clean, elegant, simple and responsive free WordPress theme. multipurpose WordPress theme that can help you create an amazing website, using pagebuilder create website by drag and drop. fully customizable & beautiful theme suitable for blog, personal portfolio, business website and WooCommerce storefront. Amazica Business help you create any type of website like creative business, mobile shop, restaurants, wedding planners, sport/medical shops, startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers. compatible with popular plugins Jetpack, Contact Form 7, Yoast SEO and many more. fully responsive for tablet & mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Visual Composer, Divi, SiteOrigin, etc. You can set menu icons and use Mega Menu. The theme is Responsive, Translation, WPML , SEO friendly, and uses Bootstrap 4 and FontAwesome for design. check DEMO: https://demo.themefarmer.com/amazica-business/
+Template: amazica
+Version: 0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: amazica-business
+Tags: e-commerce, portfolio, blog, custom-logo, custom-header, custom-menu, featured-images, full-width-template, right-sidebar, left-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#masthead.site-header {
+    background-color: #f5f5f5;
+}
+
+.frontpage-header#masthead.site-header {
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#masthead.site-header.sticky-head {
+    background-color: #f5f5f5;
+}
+
+.frontpage-header#masthead.site-header:not(.sticky-head) a {
+    color: #FFF;
+}
+
+.carousel-caption {
+    top: 35%;
+}
+
+.section-services-bg {
+    background-color: #CFD8DC;
+}
+
+.section-title {
+    font-weight: 400;
+    position: relative;
+}
+
+.section-title:before {
+    content: "";
+    width: 210px;
+    border-bottom: 3px solid #0186f0;
+    position: absolute;
+    bottom: -8px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+
+
+.home-section.section-about,
+.home-section.space.section-brands {
+    background-color: #f5f5f5;
+}
+
+.section-about .section-title,
+.section-about .section-description,
+.section-brands .section-title,
+.section-brands .section-description{
+	color:#1e364e !important; 
+}
+
+.content-index.col-md-12 .post-thumbnail:after{
+    content: none;
+}
+.content-index.col-md-12 .content-index-inner .post-thumbnail {
+    margin: -10px;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.post-content.col {
+    position: relative;
+}
+
+.content-index.col-md-12 .row.post-index-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content-index.col-md-12 .entry-summary.post-description {padding-bottom: 40px;}
+
+.slider-heading {
+    border-color: #000 !important;
+    border-bottom: 1px solid #000 !important;
+}
+.home-slider .owl-prev, .home-slider .owl-next {
+    top: 47%;
+    font-size: 36px;
+    padding: 5px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-slider .owl-prev, .home-slider .owl-next {
+    background-color: rgba(25, 18, 9, 0.23) !important;
+    border-color: #000 !important;
+    opacity: 0;
+}
+
+.Home-slider:hover .home-slider .owl-prev, .Home-slider:hover .home-slider .owl-next {
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+/* color */
+
+a,
+a:hover,
+a:focus {
+    color: #50ad54;
+}
+
+a,
+a:hover,
+a:focus {
+    color: #50ad54;
+}
+
+.header-topbar-links li a, 
+span.contact-link > a > i {
+    background-color: #50ad54;
+}
+.section-title:before {
+	border-bottom: 3px solid #50ad54;
+}
+
+.btn-theme-border {
+    border: 1px solid #50ad54;
+}
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+    background-color: #50ad54;
+}
+.widget ul li:hover a,
+.widget ul li:hover:before {
+    color: #50ad54;
+}
+.tagcloud a {
+    border: 1px solid #50ad54;
+    background-color: #50ad54;
+}
+.calendar_wrap caption {
+    background-color: #50ad54;
+}
+.widget-heading:before {
+    border-bottom: 1px solid #50ad54;
+}
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover {
+    border-color: #50ad54;
+    color: #50ad54;
+}
+.sweep-to-left:before {
+    background: #50ad54;
+}
+.sweep-to-right:before {
+    background: #50ad54;
+}
+.sweep-to-bottom:before {
+    background: #50ad54;
+}
+.sweep-to-top:before {
+    background: #50ad54;
+}
+.fill-to-top:before {
+    background-color: #50ad54;
+}
+.home-section .owl-next,
+.home-section .owl-prev {
+    background-color: #50ad54;
+}
+.slider-heading {
+    border-left: 6px solid #50ad54e0;
+    border-right: 6px solid #50ad54e0;
+    border-top: 6px solid #50ad54e0;
+
+}
+.slider-desc {
+    background-color: #50ad54e0;
+}
+.home-slider .owl-prev,
+.home-slider .owl-next {
+    background-color: #50ad546e;
+    border-color: #50ad54;
+}
+.slide-bt-2:hover {
+    border-color: #50ad54;
+}
+.service-item-inner {
+    border-bottom: 2px solid #50ad54;
+}
+.service-icon {
+    border: 1px solid #50ad54;
+    color: #50ad54;
+}
+.service-title {
+    color: #50ad54;
+}
+
+.service-icon:before {
+    background-color: #50ad54;
+}
+.meamber-info {
+    background-color: #50ad54c2;
+}
+.member-designation {
+    background-color: #50ad54;
+}
+
+.testimonial-item-inner:hover .testimonial-img {
+    border-color: #50ad54;
+}
+.section-subscribe {
+    background-color: #50ad54;
+}
+.home-post-inner {
+    border-bottom: 4px solid #50ad54;
+}
+
+.post-qk-link:hover {
+    border-color: #50ad54;
+}
+.blog-avtar {
+    border: 1px solid #50ad54;
+}
+.sticky.post .content-index-inner {
+    border-color: #50ad54;
+}
+
+.sticky.post .content-index-inner .row.post-index-bottom {
+    background-color: #50ad54;
+}
+.amz-singuler .post-navigation .nav-links a {
+    border: 1px solid #50ad54;
+}
+
+.amz-singuler .post-navigation .nav-links a:hover {
+    background-color: #50ad54;
+}
+#scroll-top {
+    background-color: #50ad549c;
+    border: 1px solid #50ad54;
+}
+.button {
+    background-color: #50ad54;
+}
+.btn-read-more {
+    font-size: 14px;
+    border: 1px solid #50ad54;
+}
+.calendar_wrap tfoot td:hover,
+.calendar_wrap tfoot td:hover a,
+.calendar_wrap tbody td:hover {
+    color: #50ad54;
+}
+
+.calendar_wrap td a:hover {
+    color: #50ad54;
+}
+
+#TF-Navbar > ul >li>a:before, 
+.sticky-head #TF-Navbar > ul >li>a:before {
+    background-color: #50ad54 !important;
+}
+.dropdown-item:focus, 
+.dropdown-item:hover, 
+.dropdown-item:active {
+    color: #50ad54;
+}
+
+@media (min-width: 768px) {
+    #TF-Navbar > ul .dropdown-menu {
+        background-color: #50ad54de !important;
+    }
+    #TF-Navbar > ul .dropdown-menu > li:hover {
+	    background-color: #50ad54 !important;
+	}
+}
+span.onsale {
+    background-color: #50ad54;
+}
+.widget_price_filter .ui-slider .ui-slider-range {
+    background: #50ad54;
+}
+.widget_price_filter .ui-slider .ui-slider-handle {
+    background: #50ad54;
+}
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    border-top: 3px solid #50ad54;
+}
